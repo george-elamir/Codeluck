@@ -41,13 +41,13 @@ else{
 modeIcon.addEventListener('click',()=>{
 
     if(style.href.includes('aboutUs')){
-        style.href="./css/Darkabout.css";
+        style.href="./CSS/Darkabout.css";
         modeIcon.className="far fa-sun";
         LD=1;
         window.localStorage.setItem('LD',LD);
     }
     else {
-        style.href="./css/aboutUs.css";
+        style.href="./CSS/aboutUs.css";
         modeIcon.className="far fa-moon";
         LD=0;
         window.localStorage.setItem('LD',LD);
