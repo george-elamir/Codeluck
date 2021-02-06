@@ -180,24 +180,24 @@ else{
 }
 
 if(LD==0){
-    style.href="./css/indexstyle.css";
+    style.href="./CSS/indexstyle.css";
     modeIcon.className="far fa-moon";
 }
 else{
-    style.href="./css/Darkindex.css";
+    style.href="./CSS/Darkindex.css";
     modeIcon.className="far fa-sun";
 }
 
 modeIcon.addEventListener('click',()=>{
 
     if(style.href.includes('indexstyle')){
-        style.href="./css/Darkindex.css";
+        style.href="./CSS/Darkindex.css";
         modeIcon.className="far fa-sun";
         LD=1;
         window.localStorage.setItem('LD',LD);
     }
     else if(style.href.includes('Darkindex')){
-        style.href="./css/indexstyle.css";
+        style.href="./CSS/indexstyle.css";
         modeIcon.className="far fa-moon";
         LD=0;
         window.localStorage.setItem('LD',LD);
