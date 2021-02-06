@@ -41,13 +41,13 @@ else{
 modeIcon.addEventListener('click',()=>{
 
     if(style.href.includes('lightgoogle')){
-        style.href="./css/darkgoogle.css";
+        style.href="./CSS/darkgoogle.css";
         modeIcon.className="far fa-sun";
         LD=1;
         window.localStorage.setItem('LD',LD);
     }
     else {
-        style.href="./css/lightgoogle.css";
+        style.href="./CSS/lightgoogle.css";
         modeIcon.className="far fa-moon";
         LD=0;
         window.localStorage.setItem('LD',LD);
