@@ -41,13 +41,13 @@ else{
 modeIcon.addEventListener('click',()=>{
 
     if(style.href.includes('lightstack')){
-        style.href="./css/darkstack.css";
+        style.href="./CSS/darkstack.css";
         modeIcon.className="far fa-sun";
         LD=1;
         window.localStorage.setItem('LD',LD);
     }
     else {
-        style.href="./css/lightstack.css";
+        style.href="./CSS/lightstack.css";
         modeIcon.className="far fa-moon";
         LD=0;
         window.localStorage.setItem('LD',LD);
